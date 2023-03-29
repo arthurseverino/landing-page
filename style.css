@@ -14,9 +14,13 @@ body{
 
 .header-links{
     font-size: 18px;
-    color: #e5e7eb;
     gap: 8px;
     display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 .header{ 
@@ -30,6 +34,14 @@ body{
 
 .below-header{
     display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+img{
+    width: 300px;
 }
 
 ul {
@@ -38,14 +50,10 @@ ul {
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
 
 .container {
     background-color: #1f2937;
-    height: 300px;
+    height: 400px;
     padding: 8px;
 }
 
@@ -53,6 +61,10 @@ a {
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    word-wrap: 10px;
+    width: 350px;
 }
 .main-text{
     color: #f9faf8;
@@ -67,7 +79,10 @@ button {
 }
 
 .sign-up{
+    width: 100px;
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+    font-weight: bold;
 }
+
