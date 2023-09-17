@@ -41,7 +41,7 @@ a {
 }
 
 .image img{
-    width: 300px;
+    width: 400px;
 }
 
 ul {
@@ -110,18 +110,18 @@ button {
 }
 
 .images img{
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 32px;
 }
 
 .subtext-mid{
-    width: 150px;
+    width: 175px;
 }
 
 .quote{
     height: 350px;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: #e5e7eb;
     margin-bottom: 100px;
     display: flex;
@@ -159,43 +159,52 @@ button {
     padding: 8px;
   }
 
-  .ad-container{
-    margin: 10px;
-    background-color: #3882f6;
-    border-radius: 10px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .ad{
-    margin-bottom: 100px;
+  .ad{ 
+    margin-bottom: 100px; 
     margin-left: 100px;
     margin-right: 100px;
+    border-radius: 15px;
+    display:flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ad-container-left{
+    margin: 10px;
+    border-radius: 10px;
+    height: 100px;
+    margin-left: 50px;
+  }
+  
+  .ad-container-right{
+    margin-right: 50px;
+    padding: 8px;
+  }
+
+  .sign-up2{
+    width: 100px;
+    background: #3882f6;
+    border: 2px solid #3882f6;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    margin-right: 50px;
+
     
   }
 
   .ad-text{
     color: white;
-    padding: 20px;    
-    
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;  
+    font-size: 26px; 
   }
 
   .ad-subtext{
     color:lightgray;
   }
-
-  .sign-up2{
-
-    width: 50px;
-    background: #3882f6;
-    border: 1px solid #3882f6;
-    color: white;
-    font-weight: bold;
-    border-color: white;
-    
-  }
-
 
 
 
